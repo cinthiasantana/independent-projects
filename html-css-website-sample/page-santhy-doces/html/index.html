@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/MARCA DAGUA SIMBOLO AZUL.png">
+    <link rel="stylesheet" href="../bootstrap-geral/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../bootstrap-geral/js/jquery.js"></script>
+    <script src="../bootstrap-geral/js/bootstrap.min.js"></script>
+    <title> Santhy </title>
+</head>
+
+<body>
+
+    <img class="carrossel" src="../img/site_santhy_doces/imagens/logo2.png">
+    <div class="logo-menu">
+        <img src="../img/MARCA DAGUA SECUNDARIA PRETA.png" alt="logo"
+            style="height: 37px; width: 80px;">
+    </div>
+
+
+
+    <!-- /* ========= INICIO MENU ========= */ -->
+    <nav class="nav-bar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li class="dropdown"> <a href="#" class="dropbtn"> Nossos produtos </a>
+                <div class="dropdown-content">
+                    <a href="#"> Bolos </a>
+                    <a href="#"> Brownies </a>
+                    <a href="#"> Tortas </a>
+                    <a href="#"> Cholocates </a>
+                </div>
+            </li>
+            <li><a href="#news"> Sobre nós </a></li>
+            <li class="dropdown"> <a href="#" class="dropbtn"> Contato </a>
+                <div class="dropdown-content">
+                    <a href="#"> Encomendas </a>
+                    <a href="#"> Whatsapp </a>
+                    <a href="#"> Nossas Redes </a>
+                </div>
+            </li>
+            <li><a href="#news"> Politica de entregas </a></li>
+            <form class="barra-pesquisa">
+                <input class="form-busca" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn" type="submit"> Buscar </button>
+            </form>
+        </ul>
+
+    </nav>
+
+    <h1 class="h1-principal"> Transformamos doces em experiências! </h1>
+
+    <img class="apresentacao" src="../img/capa1.png">
+
+    <!-- /* ========= FIM MENU ========= */ -->
+
+    <!-- /* ========= CATEGORIAS ========= */ -->
+    <h1 class="h1-principal"> Categorias </h1>
+
+    <div class="container">
+        <br><br>
+
+        <button class="btn btn-outline-warning">Clique aqui</button>
+        <a href="#" class="btn btn-outline-danger">Clique aqui</a>
+        <input type="button" class="btn btn-outline-success" value="Clique aqui">
+
+        <br><br>
+
+    </div>
+
+    <!-- /* ========= INICIO NOVIDADES ========= */ -->
+
+
+
+    <h2 id="novidades" class="h2-title"> Novidades </h2>
+
+    <div class="video">
+
+        <img class="thumbnail" src="../img/fatiabrownie.png">
+
+        <h1 class="video-title"> Naked cake </h1>
+
+        <p class="video-description"> Bolo recheado sem cobertura com camadas de recheios visiveis. </p>
+
+        <button class='botao-novidades' type='botao'><strong> Adicionar ao carrinho </strong></button>
+
+    </div>
+    <div class="video">
+
+        <img class="thumbnail" src="../img/copobrownie2.png">
+
+        <h1 class="video-title"> Macarons </h1>
+
+        <p class="video-description"> um pequeno biscoito feito com farinha de amêndoas, granuloso e molinho. </p>
+
+        <button class='botao-novidades' type='botao'><strong> Adicionar ao carrinho </strong></button>
+
+    </div>
+    <div class="video">
+
+        <img class="thumbnail" src="../img/bombomdepote.png">
+
+        <h1 class="video-title"> Bolo com chantilly </h1>
+
+        <p class="video-description"> Bolos de diversos sabores decorados com chantilly. </p>
+
+        <button class='botao-novidades' type='botao'><strong> Adicionar ao carrinho </strong></button>
+
+    </div>
+
+
+    <!-- /* ========= FIM NOVIDADES ========= */ -->
+
+    <!-- /* ========= INICIO NEWSLETTER========= */ -->
+
+    <h2 id="newsletter" class="h2-title"> Nosso Newsletter </h2>
+
+    <p class="newsletter-title"> Increva-se na nossa Newsletter para receber as últimas novidades </p>
+    <form class="form-newsletter">
+
+        <input class='input-newsletter' type='text' name='nome' id='nome' placeholder='Digite seu nome completo'>
+
+        <input class='input-newsletter' type='email' name='email' id='e-mail' placeholder='Digite seu e-mail'>
+
+        <button class='botao-newsletter' type='submit'><strong> Inscrever-se </strong></button>
+
+    </form>
+
+
+
+    <!-- /* ========= FIM NEWSLETTER========= */ -->
+
+    <!-- /* ========= INICIO FORMULARIO DE CONTATO ========= */ -->
+
+    <h2 class="h2-title"> Contato </h2>
+
+    <form class="form-contato">
+
+        <h1 class="h1-contato"> Entre em contato para fazer sua encomenda </h1>
+
+
+        <label for="nome"> Nome: </label>
+        <input class='input' type='text' name='nome' id='nome' placeholder='Digite seu nome completo'>
+
+        <label for="celular"> Celular: </label>
+        <input class='input' type="tel" name='celular' id='celular' placeholder='Digite seu telefone para contato'>
+
+        <label for="email"> E-mail: </label>
+        <input class='input' type='email' name='email' id='e-mail' placeholder='Digite seu e-mail'>
+
+        <label for="qntd"> Quantidade: </label>
+        <input class='input' type="number" name='qntd' id='qntd' placeholder='Qual a quantidade que deseja encomendar?'>
+
+        <label for="destino"> Selecione o doce que deseja encomendar: </label>
+        <select class='input' name='destino' id='destino' placeholder='Destino'>
+            <option selected disabled> Escolha o doce </option>
+            <option value=''> Doces para festa </option>
+            <option value=''> Bolo de festa </option>
+            <option value=''> Brownies </option>
+            <option value=''> Tortas </option>
+            <option value=''> Chocolates </option>
+        </select>
+
+        <label for="date"> Data da entrega: </label>
+        <input class='input' type="date" name='date' id='date' min="09-10-2021">
+
+        <label for="mensagem"> Descreva com mais detalhes sobre oque deseja encomendar: </label>
+        <textarea class='input2' type='text' name='sobre' id='mensagem' rows="20" cols="30"
+            placeholder='Escreva aqui sua mensagem, e conte-nos mais sobre o pacote que deseja.'></textarea>
+
+        <button class='botao' type='reset'><strong> Limpar campos </strong></button>
+        <button class='botao' type='submit'><strong> Enviar </strong></button>
+
+
+    </form>
+
+    <!-- /* ========= FIM DO FORMULARIO DE CONTATO ========= */ -->
+
+    <!-- /* ========= RODAPÉ ========= */ -->
+
+    <footer>
+        <p> Rua Exemplo, 001. Vila Exemplo - São Paulo/SP Loja dos doces - 12.345.678/9123-45 - 2021. </p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,496 @@
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* <!-- MENU --> */
+
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* <!-- MENU --> */
+
+.menu {
+    width: 100%;
+    height: 100px;
+    background-color: #C47AC0;
+    position: fixed;
+    
+}
+
+.logo-menu {
+    margin: 20px 0 0 150px;
+    color: white;
+    position: absolute;
+    font-size: 45px;
+    
+}
+
+.logo-menu > i > p {
+    margin: 14px 0 0 16px;
+    color: white;
+    float: right;
+    font-size: 20px;
+}
+
+.busca {
+    float: left;
+    width: 450px;
+    margin-left: 380px;
+    height: 80px;
+    
+}
+
+.busca > input {
+    border-radius: 22px;
+    margin-top: 26px;
+    height: 40px;
+    width: 100%;
+    border-style: none;
+    
+}
+
+.busca > input[type=text] {
+    padding-left: 20px;   
+}
+
+.busca > input:focus{
+    outline: none;
+}
+
+.busca > input::placeholder{
+    color: #2F323A;
+    font-size: 16px;
+    
+}
+
+.lupa {
+    font-size: 18px;
+    color: #2F323A;
+    cursor: pointer;
+    position: absolute;
+    background:transparent;
+    border: none;
+    margin-left: 430px;
+    margin-top: -30px;
+    float: right;
+}
+
+.btn-acesso{
+    position:absolute;
+    right: 230px;
+    width: 250px;
+    padding: 32px 0 30px 0px;
+    
+}
+
+.btn-login, .btn-cad {
+    height: 32px;
+    margin: 0px 0px 0px 20px;
+    width: 100px;
+    background-color: #77567A;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    
+}
+
+.btn-login > a, .btn-cad > a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.acesso-carrinho {
+    width: 200px;
+    height: 70px;
+    float: right;
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 25px;
+    
+}
+
+.acesso-carrinho > a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.acesso-carrinho > a > i{
+    font-size: 28px;
+    
+}
+
+ /* <!-- BANNER --> */
+
+.banner{
+    width: 900px;
+    height: 400px;
+    padding: 40px 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 130px;
+}
+
+.categorias-banner > ul > li {
+    float: left;
+    list-style: none;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+
+.categorias-banner > ul > li > a{
+    float: left;
+    color: #77567A;
+    list-style: none;
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+.categorias-banner > ul > li > a > i{
+    font-size: 8px;
+    margin: 0 10px 0 10px;
+    border: 1px solid black;
+    
+}
+
+.banner-1{
+    position:absolute;
+    padding: 40px 80px;
+    z-index: -1;
+}
+
+.img-banner{
+    width: 1100px;
+    height: 350px;
+    object-fit: cover;
+    
+}
+
+
+/*  <!-- DESTAQUES E PRODUTOS MAIS VENDIDOS --> */
+
+.destaques, .produtos-mais-vendidos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 90px 50px;
+}
+
+
+h1 {
+    width: 800px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    border-bottom: #77567A 1px solid;    
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #77567A;
+}
+
+.produto {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.produto:hover{
+    transform: scale(1.05);
+    transition: all 300ms;
+    transition-duration: all 300ms;
+    z-index: -1;
+    cursor: pointer;
+}
+
+.img-produto{
+    width: 250px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.descricao-produto{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    color: #2F323A;
+}
+
+.valor-produto{
+    font-size: 26px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    color: #2F323A;
+}
+
+.info-secundaria{
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 10px;
+    color: #2F323A;
+}
+
+.btn-comprar{
+    width: 250px;
+    height: 35px;
+    border-radius: 3px;
+    cursor: pointer;
+    border-style: none;
+    background-color: #E39EC1;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+
+.btn-comprar > a {
+    color: #2F323A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* <!-- ACAO SIGA --> */
+
+.acao-siga{
+    width: 80%;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.acao-siga > a > i {
+    float: left;
+    font-size: 45px;
+    margin-left: 370px;
+    position: absolute;
+    color: #C47AC0;
+    z-index: -1;
+}
+
+.acao {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 4px;
+    margin-left: 80px;
+    color: #2F323A;
+    cursor: pointer;
+    
+}
+
+.acao > a {
+    text-decoration: none;  
+}
+
+.acao > a:link {
+    color: #2F323A;
+}
+
+.acao > a:visited {
+    color: #C47AC0;
+}
+
+
+
+/* <!-- INFORMAÇÕES --> */
+
+.informacoes{
+    width: 1200px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;    
+    padding-top: 50px;
+}
+
+.item-1{
+    margin-left: 30px;
+    
+}
+
+.item-2, .item-3 {
+    border-left: 1px solid #C47AC0;
+    padding-left: 60px;
+}
+
+.item-1, .item-2, .item-3 {
+    width: 320px;
+    height: 70px;
+    float: left;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    line-height: 24px;
+    color: #2F323A;
+    
+}  
+
+.item-1 > i, .item-2 > i, .item-3 > i {
+    font-size: 34px;
+    float: left;
+    color: #C47AC0;
+    margin-right: 20px;
+}
+
+.info-item-titulo {
+    font-weight: bold;
+}
+
+/* <!-- RODAPE --> */
+
+footer {
+    background-color: #C47AC0;
+}
+
+.rodape {
+    width: 1200px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rodape-nav, .rodape-contato, .rodape-redes, .newsletter {
+    width: 250px;
+    float: left;
+    padding: 20px;
+}
+
+.rodape-titulo{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.rodape-nav > a, .rodape-contato > a, .rodape-pagamento > a, 
+.rodape-envios > a, .rodape-redes > a, .newsletter > a  {
+    text-decoration: none;
+    color: #2F323A;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+
+
+.rodape-contato > p {
+    color: #2F323A;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.rodape-pagamento,.rodape-envios {
+    width: 250px;
+    float: left;
+    padding: 20px;
+    padding-bottom: 40px;
+    
+    
+}
+
+.rodape-pagamento > i,.rodape-envios > i {
+    font-size: 35px;
+    color: #2F323A;
+    padding-top: 20px;
+
+}
+
+.rodape-envios{
+    margin-top: 110px;
+    position: absolute;
+    margin-left: 584px;
+}
+
+.rodape-redes > a > i {
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 6px;
+    
+}
+
+.rodape-redes {
+    position: absolute;
+    margin-top: 165px;
+    position: absolute;
+    margin-left: 292px;
+}
+
+.newsletter > p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0 10px 0;
+    color: #2F323A;
+}
+
+.newsletter > input {
+    border-radius: 5px;
+    border-style: none;
+    height: 30px;
+    margin: 6px 0 6px 0;
+    width: 100%;
+}
+
+.newsletter > button {
+    border-style: none;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #E39EC1;
+    color: #585858;
+    cursor: pointer;
+}
+
+.newsletter > input:focus{
+    outline: none;
+}
+
+.newsletter > input[type=text] {
+    padding-left: 10px;   
+}
+
+.creditos {
+    width: 1200px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 22px;
+    display: inline-block;
+    border-top: 1px solid #585858;
+    margin-top: 30px;
+    color: #2F323A;
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
