@@ -50,8 +50,6 @@ body{
 
 .index{
     border-bottom: solid 2px #6558F5;
-
-
 }
 
 
@@ -69,11 +67,9 @@ body{
 }
 
 .btn1:hover, .btn2:hover {
-
     transform: scale(1.05);
     filter: brightness(100%);
     transition: 0.2s ease-in-out;
-
 }
 
 .btn1, .btn2{
@@ -115,8 +111,6 @@ a {
 .produto1, .produto2, .produto3{
     margin: 30px 50px 0 50px;
     cursor: pointer;
-    
-
 }
 
 .produto1:hover, .produto2:hover, .produto3:hover {
@@ -139,6 +133,7 @@ a {
 h3{
     font-size: 22px;    
 }
+
 p{
     font-size: 18px;
 }

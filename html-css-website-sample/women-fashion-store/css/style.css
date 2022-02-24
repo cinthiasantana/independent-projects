@@ -1,27 +1,20 @@
 /* GERAL */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Montserrat+Alternates:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@200&family=Montserrat+Alternates:wght@300&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&display=swap');
 
 *{
     margin: 0;
     padding: 0;
 }
-
-
-/* <!-- MENU --> */
-
-/* GERAL */
-
-*{
-    margin: 0;
-    padding: 0;
-}
-
 
 /* <!-- MENU --> */
 
 .menu {
     width: 100%;
     height: 100px;
-    background-color: #C47AC0;
+    background-color: #D199B6;
     position: fixed;
     
 }
@@ -30,32 +23,33 @@
     margin: 20px 0 0 150px;
     color: white;
     position: absolute;
-    font-size: 45px;
-    
+    font-size: 40px;
 }
 
 .logo-menu > i > p {
     margin: 14px 0 0 16px;
     color: white;
     float: right;
-    font-size: 20px;
+    font-size: 16px;
+    font-family: playfair display;
+    text-transform: uppercase;
 }
 
 .busca {
     float: left;
     width: 450px;
     margin-left: 380px;
-    height: 80px;
-    
+    height: 50px;
 }
 
 .busca > input {
     border-radius: 22px;
     margin-top: 26px;
-    height: 40px;
+    height: 35px;
     width: 100%;
     border-style: none;
-    
+    color: #9F2042;
+    font-size: 14px;
 }
 
 .busca > input[type=text] {
@@ -67,20 +61,19 @@
 }
 
 .busca > input::placeholder{
-    color: #2F323A;
-    font-size: 16px;
-    
+    color: #A68BA5;
+    font-size: 14px;
 }
 
 .lupa {
     font-size: 18px;
-    color: #2F323A;
+    color: #A68BA5;
     cursor: pointer;
     position: absolute;
     background:transparent;
     border: none;
     margin-left: 430px;
-    margin-top: -30px;
+    margin-top: -28px;
     float: right;
 }
 
@@ -89,24 +82,23 @@
     right: 230px;
     width: 250px;
     padding: 32px 0 30px 0px;
-    
 }
 
 .btn-login, .btn-cad {
-    height: 32px;
-    margin: 0px 0px 0px 20px;
+    height: 28px;
+    margin-left: 20px;
     width: 100px;
-    background-color: #77567A;
+    background-color: white;
     cursor: pointer;
     border-style: none;
     border-radius: 5px;
-    
 }
 
 .btn-login > a, .btn-cad > a {
-    color: white;
+    color: #A68BA5;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
+    font-family: playfair display;
 }
 
 .acesso-carrinho {
@@ -116,19 +108,17 @@
     text-align: center;
     padding-top: 30px;
     padding-right: 25px;
-    
 }
 
 .acesso-carrinho > a {
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: none;
     color: white;
-    
+    font-family: playfair display;
 }
 
 .acesso-carrinho > a > i{
     font-size: 28px;
-    
 }
 
  /* <!-- BANNER --> */
@@ -150,25 +140,27 @@
     list-style: none;
     margin: 0px 10px;
     text-transform: uppercase;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     text-decoration: none;
-    
+    font-family: roboto;
 }
 
-.categorias-banner > ul > li > a{
+.categorias-banner > ul > li > a {
     float: left;
-    color: #77567A;
+    color: #C493B0;
     list-style: none;
     text-decoration: none;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .categorias-banner > ul > li > a > i{
     font-size: 8px;
     margin: 0 10px 0 10px;
-    border: 1px solid black;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .banner-1{
@@ -181,7 +173,6 @@
     width: 1100px;
     height: 350px;
     object-fit: cover;
-    
 }
 
 
@@ -195,18 +186,18 @@
     margin: 0 50px 90px 50px;
 }
 
-
 h1 {
     width: 800px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 25px;
+    font-family: playfair display;
+    letter-spacing: 2px;
+    font-size: 28px;
     text-align: center;
-    border-bottom: #77567A 1px solid;    
+    border-bottom: #A68BA5 1px solid;    
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
     padding-bottom: 10px;
-    color: #77567A;
+    color: #A68BA5;
 }
 
 .produto {
@@ -214,14 +205,6 @@ h1 {
     width: 250px;
     padding: 10px;
     margin: 20px;
-    cursor: pointer;
-}
-
-.produto:hover{
-    transform: scale(1.05);
-    transition: all 300ms;
-    transition-duration: all 300ms;
-    z-index: -1;
     cursor: pointer;
 }
 
@@ -234,26 +217,26 @@ h1 {
 
 .descricao-produto{
     font-size: 18px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: playfair display;
     text-align: center;
     margin: 10px;
-    color: #2F323A;
+    color: #A68BA5;
 }
 
 .valor-produto{
     font-size: 26px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: roboto;
     text-align: center;
     margin: 10px;
-    color: #2F323A;
+    color: #A68BA5;
 }
 
 .info-secundaria{
     font-size: 16px;
-    font-family:'Times New Roman', Times, serif;
+    font-family: roboto;
     text-align: center;
     margin: 10px;
-    color: #2F323A;
+    color: #A68BA5;
 }
 
 .btn-comprar{
@@ -262,14 +245,14 @@ h1 {
     border-radius: 3px;
     cursor: pointer;
     border-style: none;
-    background-color: #E39EC1;
-    font-size: 16px;
+    background-color: #A68BA5;
+    font-size: 18px;
+    font-family: playfair display;
     text-transform: uppercase;
-
 }
 
 .btn-comprar > a {
-    color: #2F323A;
+    color: white;
     text-decoration: none;
     font-weight: bold;
 }
@@ -288,7 +271,7 @@ h1 {
     font-size: 45px;
     margin-left: 370px;
     position: absolute;
-    color: #C47AC0;
+    color: #D199B6;
     z-index: -1;
 }
 
@@ -297,24 +280,22 @@ h1 {
     text-align: center;
     padding-top: 4px;
     margin-left: 80px;
-    color: #2F323A;
+    color: grey;
     cursor: pointer;
-    
 }
 
 .acao > a {
-    text-decoration: none;  
+    text-decoration: none;
+    font-family: playfair display;
 }
 
 .acao > a:link {
-    color: #2F323A;
+    color: #D199B6;
 }
 
 .acao > a:visited {
-    color: #C47AC0;
+    color: #D199B6;
 }
-
-
 
 /* <!-- INFORMAÇÕES --> */
 
@@ -328,11 +309,10 @@ h1 {
 
 .item-1{
     margin-left: 30px;
-    
 }
 
 .item-2, .item-3 {
-    border-left: 1px solid #C47AC0;
+    border-left: 1px solid #D199B6;
     padding-left: 60px;
 }
 
@@ -340,21 +320,20 @@ h1 {
     width: 320px;
     height: 70px;
     float: left;
-    font-size: 15px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-family: playfair display;
     text-transform: uppercase;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 16px;
     line-height: 24px;
-    color: #2F323A;
-    
+    color: #D199B6;
 }  
 
 .item-1 > i, .item-2 > i, .item-3 > i {
     font-size: 34px;
     float: left;
-    color: #C47AC0;
+    color: #D199B6;
     margin-right: 20px;
 }
 
@@ -365,7 +344,7 @@ h1 {
 /* <!-- RODAPE --> */
 
 footer {
-    background-color: #C47AC0;
+    background-color: #D199B6;
 }
 
 .rodape {
@@ -383,23 +362,30 @@ footer {
 
 .rodape-titulo{
     font-size: 20px;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
+    font-family: playfair display;
+    color: #50514F;
 }
 
 .rodape-nav > a, .rodape-contato > a, .rodape-pagamento > a, 
 .rodape-envios > a, .rodape-redes > a, .newsletter > a  {
     text-decoration: none;
-    color: #2F323A;
+    color: #50514F;
     font-size: 18px;
+    font-family: roboto;
     line-height: 26px;
 }
 
-
+.rodape-nav a p:hover, .rodape-contato a p:hover, 
+.rodape-pagamento i:hover, .rodape-envios i:hover,
+.rodape-redes a:hover  {
+    color: white;
+    cursor: pointer;
+}
 
 .rodape-contato > p {
-    color: #2F323A;
+    color: #50514F;
     font-size: 18px;
+    font-family: roboto;
     line-height: 26px;
 }
 
@@ -408,15 +394,12 @@ footer {
     float: left;
     padding: 20px;
     padding-bottom: 40px;
-    
-    
 }
 
 .rodape-pagamento > i,.rodape-envios > i {
     font-size: 35px;
-    color: #2F323A;
+    color: #50514F;
     padding-top: 20px;
-
 }
 
 .rodape-envios{
@@ -429,7 +412,6 @@ footer {
     font-size: 30px;
     padding-top: 20px;
     margin-left: 6px;
-    
 }
 
 .rodape-redes {
@@ -441,9 +423,9 @@ footer {
 
 .newsletter > p {
     font-size: 18px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: roboto;
     padding: 10px 0 10px 0;
-    color: #2F323A;
+    color: #50514F;
 }
 
 .newsletter > input {
@@ -452,18 +434,21 @@ footer {
     height: 30px;
     margin: 6px 0 6px 0;
     width: 100%;
+    color: #50514F;
 }
 
 .newsletter > button {
     border-style: none;
     border-radius: 5px;
-    height: 30px;
-    width: 30%;
+    height: 35px;
+    width: 50%;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: #E39EC1;
-    color: #585858;
+    font-family: roboto;
+    background-color:#50514F;
+    color: #A68BA5;
     cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .newsletter > input:focus{
@@ -478,12 +463,12 @@ footer {
     width: 1200px;
     text-align: center;
     font-size: 16px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: roboto;
     line-height: 22px;
     display: inline-block;
-    border-top: 1px solid #585858;
+    border-top: 1px solid #ccc;
     margin-top: 30px;
-    color: #2F323A;
+    color: #50514F;
     padding-top: 20px;
 }
 
